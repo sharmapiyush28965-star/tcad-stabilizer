@@ -1,0 +1,418 @@
+section,case,step,status,iters,value,t_cum_s,note
+diode1d,Na=Nd=1e+21 N=40 hook=True,eq,PASS,7,,9.5,
+diode1d,Na=Nd=1e+21 N=40 hook=True,V=-1.0,PASS,17,-1.390434e-03,9.5,
+diode1d,Na=Nd=1e+21 N=40 hook=True,V=-0.5,PASS,22,-7.678068e-04,9.5,
+diode1d,Na=Nd=1e+21 N=40 hook=True,V=+0.3,NONCONV,60,-7.678068e-04,9.5,graceful
+diode1d,Na=Nd=1e+21 N=40 hook=True,V=+0.6,PASS,40,4.130613e+05,9.5,
+diode1d,Na=Nd=1e+21 N=40 hook=True,V=+0.8,PASS,8,4.610791e+06,9.5,
+diode1d,Na=Nd=1e+21 N=40 hook=False,eq,PASS,7,,13.3,
+diode1d,Na=Nd=1e+21 N=40 hook=False,V=-1.0,NONCONV,60,0.000000e+00,13.3,graceful
+diode1d,Na=Nd=1e+21 N=40 hook=False,V=-0.5,NONCONV,60,0.000000e+00,13.3,graceful
+diode1d,Na=Nd=1e+21 N=40 hook=False,V=+0.3,NONCONV,60,0.000000e+00,13.3,graceful
+diode1d,Na=Nd=1e+21 N=40 hook=False,V=+0.6,NONCONV,60,0.000000e+00,13.3,graceful
+diode1d,Na=Nd=1e+21 N=40 hook=False,V=+0.8,NONCONV,60,0.000000e+00,13.3,graceful
+diode1d,Na=Nd=1e+21 N=80 hook=True,eq,PASS,7,,4.2,
+diode1d,Na=Nd=1e+21 N=80 hook=True,V=-1.0,PASS,17,-1.388177e-03,4.2,
+diode1d,Na=Nd=1e+21 N=80 hook=True,V=-0.5,PASS,22,-7.661156e-04,4.2,
+diode1d,Na=Nd=1e+21 N=80 hook=True,V=+0.3,PASS,20,1.431580e+01,4.2,
+diode1d,Na=Nd=1e+21 N=80 hook=True,V=+0.6,PASS,7,4.127352e+05,4.2,
+diode1d,Na=Nd=1e+21 N=80 hook=True,V=+0.8,PASS,8,4.617055e+06,4.2,
+diode1d,Na=Nd=1e+21 N=80 hook=False,eq,PASS,7,,29.4,
+diode1d,Na=Nd=1e+21 N=80 hook=False,V=-1.0,NONCONV,60,3.216643e-09,29.4,graceful
+diode1d,Na=Nd=1e+21 N=80 hook=False,V=-0.5,NONCONV,60,3.216643e-09,29.4,graceful
+diode1d,Na=Nd=1e+21 N=80 hook=False,V=+0.3,NONCONV,60,3.216643e-09,29.4,graceful
+diode1d,Na=Nd=1e+21 N=80 hook=False,V=+0.6,NONCONV,60,3.216643e-09,29.4,graceful
+diode1d,Na=Nd=1e+21 N=80 hook=False,V=+0.8,NONCONV,60,3.216643e-09,29.4,graceful
+diode1d,Na=Nd=1e+21 N=120 hook=True,eq,PASS,7,,6.2,
+diode1d,Na=Nd=1e+21 N=120 hook=True,V=-1.0,PASS,17,-1.387769e-03,6.2,
+diode1d,Na=Nd=1e+21 N=120 hook=True,V=-0.5,PASS,22,-7.658213e-04,6.2,
+diode1d,Na=Nd=1e+21 N=120 hook=True,V=+0.3,PASS,19,1.430827e+01,6.2,
+diode1d,Na=Nd=1e+21 N=120 hook=True,V=+0.6,PASS,7,4.126747e+05,6.2,
+diode1d,Na=Nd=1e+21 N=120 hook=True,V=+0.8,PASS,8,4.618144e+06,6.2,
+diode1d,Na=Nd=1e+21 N=120 hook=False,eq,PASS,7,,54.6,
+diode1d,Na=Nd=1e+21 N=120 hook=False,V=-1.0,NONCONV,60,6.460430e-09,54.6,graceful
+diode1d,Na=Nd=1e+21 N=120 hook=False,V=-0.5,NONCONV,60,6.460430e-09,54.6,graceful
+diode1d,Na=Nd=1e+21 N=120 hook=False,V=+0.3,NONCONV,60,6.460430e-09,54.6,graceful
+diode1d,Na=Nd=1e+21 N=120 hook=False,V=+0.6,NONCONV,60,6.460430e-09,54.6,graceful
+diode1d,Na=Nd=1e+21 N=120 hook=False,V=+0.8,NONCONV,60,6.460430e-09,54.6,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=True,eq,PASS,7,,13.3,
+diode1d,Na=Nd=1e+22 N=40 hook=True,V=-1.0,NONCONV,60,-2.549829e-04,13.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=True,V=-0.5,NONCONV,60,-2.622112e-04,13.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=True,V=+0.3,NONCONV,60,-2.876461e-01,13.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=True,V=+0.6,PASS,36,9.940013e+04,13.3,
+diode1d,Na=Nd=1e+22 N=40 hook=True,V=+0.8,PASS,8,1.577966e+07,13.3,
+diode1d,Na=Nd=1e+22 N=40 hook=False,eq,PASS,7,,11.3,
+diode1d,Na=Nd=1e+22 N=40 hook=False,V=-1.0,NONCONV,60,-5.081481e-08,11.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=False,V=-0.5,NONCONV,60,-5.081481e-08,11.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=False,V=+0.3,NONCONV,60,-5.081481e-08,11.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=False,V=+0.6,NONCONV,60,-5.081481e-08,11.3,graceful
+diode1d,Na=Nd=1e+22 N=40 hook=False,V=+0.8,NONCONV,60,-5.081481e-08,11.3,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=True,eq,PASS,7,,46.7,
+diode1d,Na=Nd=1e+22 N=80 hook=True,V=-1.0,NONCONV,60,-1.196293e-04,46.7,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=True,V=-0.5,NONCONV,60,-9.532527e-05,46.7,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=True,V=+0.3,NONCONV,60,-1.132872e-04,46.7,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=True,V=+0.6,NONCONV,60,-4.775840e-04,46.7,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=True,V=+0.8,NONCONV,60,7.640762e-04,46.7,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=False,eq,PASS,7,,26.1,
+diode1d,Na=Nd=1e+22 N=80 hook=False,V=-1.0,NONCONV,60,3.431086e-08,26.1,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=False,V=-0.5,NONCONV,60,3.431086e-08,26.1,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=False,V=+0.3,NONCONV,60,3.431086e-08,26.1,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=False,V=+0.6,NONCONV,60,3.431086e-08,26.1,graceful
+diode1d,Na=Nd=1e+22 N=80 hook=False,V=+0.8,NONCONV,60,3.431086e-08,26.1,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=True,eq,PASS,7,,74.4,
+diode1d,Na=Nd=1e+22 N=120 hook=True,V=-1.0,NONCONV,60,-1.016428e-04,74.4,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=True,V=-0.5,NONCONV,60,-1.052661e-04,74.4,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=True,V=+0.3,NONCONV,60,-1.104934e-04,74.4,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=True,V=+0.6,NONCONV,60,-1.104934e-04,74.4,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=True,V=+0.8,NONCONV,60,1.405088e-04,74.4,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=False,eq,PASS,7,,75.5,
+diode1d,Na=Nd=1e+22 N=120 hook=False,V=-1.0,NONCONV,60,-2.584172e-08,75.5,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=False,V=-0.5,NONCONV,60,-2.584172e-08,75.5,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=False,V=+0.3,NONCONV,60,-2.584172e-08,75.5,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=False,V=+0.6,NONCONV,60,-2.584172e-08,75.5,graceful
+diode1d,Na=Nd=1e+22 N=120 hook=False,V=+0.8,NONCONV,60,-2.584172e-08,75.5,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=True,eq,PASS,6,,10.5,
+diode1d,Na=Nd=1e+23 N=40 hook=True,V=-1.0,PASS,29,-9.033371e-05,10.5,
+diode1d,Na=Nd=1e+23 N=40 hook=True,V=-0.5,NONCONV,60,-9.033371e-05,10.5,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=True,V=+0.3,NONCONV,60,-9.033371e-05,10.5,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=True,V=+0.6,NONCONV,60,-9.033371e-05,10.5,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=True,V=+0.8,NONCONV,60,-9.033371e-05,10.5,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=False,eq,PASS,6,,13.8,
+diode1d,Na=Nd=1e+23 N=40 hook=False,V=-1.0,NONCONV,60,-4.055322e-05,13.8,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=False,V=-0.5,NONCONV,60,-4.055322e-05,13.8,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=False,V=+0.3,NONCONV,60,1.633653e+10,13.8,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=False,V=+0.6,NONCONV,60,1.633653e+10,13.8,graceful
+diode1d,Na=Nd=1e+23 N=40 hook=False,V=+0.8,NONCONV,60,2.463441e-05,13.8,graceful
+diode1d,Na=Nd=1e+23 N=80 hook=True,eq,PASS,7,,9.0,
+diode1d,Na=Nd=1e+23 N=80 hook=True,V=-1.0,NONCONV,60,0.000000e+00,9.0,graceful
+diode1d,Na=Nd=1e+23 N=80 hook=True,V=-0.5,PASS,12,-4.208845e-05,9.0,
+diode1d,Na=Nd=1e+23 N=80 hook=True,V=+0.3,PASS,21,9.272694e-02,9.0,
+diode1d,Na=Nd=1e+23 N=80 hook=True,V=+0.6,PASS,6,9.847724e+03,9.0,
+diode1d,Na=Nd=1e+23 N=80 hook=True,V=+0.8,PASS,6,1.531934e+07,9.0,
+diode1d,Na=Nd=1e+23 N=80 hook=False,eq,PASS,7,,29.8,
+diode1d,Na=Nd=1e+23 N=80 hook=False,V=-1.0,NONCONV,60,-2.263538e-05,29.8,graceful
+diode1d,Na=Nd=1e+23 N=80 hook=False,V=-0.5,NONCONV,60,-2.263538e-05,29.8,graceful
+diode1d,Na=Nd=1e+23 N=80 hook=False,V=+0.3,NONCONV,60,-1.698025e-03,29.8,graceful
+diode1d,Na=Nd=1e+23 N=80 hook=False,V=+0.6,NONCONV,60,3.406912e-03,29.8,graceful
+diode1d,Na=Nd=1e+23 N=80 hook=False,V=+0.8,NONCONV,60,-4.669706e-04,29.8,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=True,eq,PASS,7,,54.1,
+diode1d,Na=Nd=1e+23 N=120 hook=True,V=-1.0,NONCONV,60,0.000000e+00,54.1,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=True,V=-0.5,NONCONV,60,-4.777512e-05,54.1,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=True,V=+0.3,NONCONV,60,-4.777512e-05,54.1,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=True,V=+0.6,NONCONV,60,-1.875657e-04,54.1,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=True,V=+0.8,NONCONV,60,-9.253364e-03,54.1,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=False,eq,PASS,7,,32.8,
+diode1d,Na=Nd=1e+23 N=120 hook=False,V=-1.0,NONCONV,60,-3.539245e-05,32.8,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=False,V=-0.5,NONCONV,60,-3.539245e-05,32.8,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=False,V=+0.3,NONCONV,60,-1.436994e-03,32.8,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=False,V=+0.6,NONCONV,60,-2.634618e-02,32.8,graceful
+diode1d,Na=Nd=1e+23 N=120 hook=False,V=+0.8,NONCONV,60,-2.634618e-02,32.8,graceful
+diode1d,Na=Nd=1e+24 N=40 hook=True,eq,PASS,5,,1.0,
+diode1d,Na=Nd=1e+24 N=40 hook=True,V=-1.0,PASS,12,-6.166127e-08,1.0,
+diode1d,Na=Nd=1e+24 N=40 hook=True,V=-0.5,PASS,6,-6.122757e-08,1.0,
+diode1d,Na=Nd=1e+24 N=40 hook=True,V=+0.3,PASS,17,9.026137e-03,1.0,
+diode1d,Na=Nd=1e+24 N=40 hook=True,V=+0.6,PASS,5,9.855112e+02,1.0,
+diode1d,Na=Nd=1e+24 N=40 hook=True,V=+0.8,PASS,4,2.231789e+06,1.0,
+diode1d,Na=Nd=1e+24 N=40 hook=False,eq,PASS,5,,20.9,
+diode1d,Na=Nd=1e+24 N=40 hook=False,V=-1.0,NONCONV,60,-4.434595e-07,20.9,graceful
+diode1d,Na=Nd=1e+24 N=40 hook=False,V=-0.5,NONCONV,60,-4.434595e-07,20.9,graceful
+diode1d,Na=Nd=1e+24 N=40 hook=False,V=+0.3,NONCONV,60,-7.080142e-01,20.9,graceful
+diode1d,Na=Nd=1e+24 N=40 hook=False,V=+0.6,NONCONV,60,-7.080142e-01,20.9,graceful
+diode1d,Na=Nd=1e+24 N=40 hook=False,V=+0.8,NONCONV,60,2.916105e-03,20.9,graceful
+diode1d,Na=Nd=1e+24 N=80 hook=True,eq,PASS,6,,9.3,
+diode1d,Na=Nd=1e+24 N=80 hook=True,V=-1.0,NONCONV,60,1.097947e-05,9.3,graceful
+diode1d,Na=Nd=1e+24 N=80 hook=True,V=-0.5,PASS,11,-6.045980e-08,9.3,
+diode1d,Na=Nd=1e+24 N=80 hook=True,V=+0.3,PASS,21,8.904492e-03,9.3,
+diode1d,Na=Nd=1e+24 N=80 hook=True,V=+0.6,PASS,5,9.690490e+02,9.3,
+diode1d,Na=Nd=1e+24 N=80 hook=True,V=+0.8,PASS,5,2.194914e+06,9.3,
+diode1d,Na=Nd=1e+24 N=80 hook=False,eq,PASS,6,,28.6,
+diode1d,Na=Nd=1e+24 N=80 hook=False,V=-1.0,NONCONV,60,1.940013e-05,28.6,graceful
+diode1d,Na=Nd=1e+24 N=80 hook=False,V=-0.5,NONCONV,60,1.940013e-05,28.6,graceful
+diode1d,Na=Nd=1e+24 N=80 hook=False,V=+0.3,NONCONV,60,-1.372744e+00,28.6,graceful
+diode1d,Na=Nd=1e+24 N=80 hook=False,V=+0.6,NONCONV,60,-2.000654e+00,28.6,graceful
+diode1d,Na=Nd=1e+24 N=80 hook=False,V=+0.8,NONCONV,60,-2.000654e+00,28.6,graceful
+diode1d,Na=Nd=1e+24 N=120 hook=True,eq,PASS,6,,15.0,
+diode1d,Na=Nd=1e+24 N=120 hook=True,V=-1.0,NONCONV,60,1.653870e-05,15.0,graceful
+diode1d,Na=Nd=1e+24 N=120 hook=True,V=-0.5,PASS,12,-6.006403e-08,15.0,
+diode1d,Na=Nd=1e+24 N=120 hook=True,V=+0.3,PASS,17,8.861688e-03,15.0,
+diode1d,Na=Nd=1e+24 N=120 hook=True,V=+0.6,PASS,6,9.649427e+02,15.0,
+diode1d,Na=Nd=1e+24 N=120 hook=True,V=+0.8,PASS,6,2.184242e+06,15.0,
+diode1d,Na=Nd=1e+24 N=120 hook=False,eq,PASS,6,,34.7,
+diode1d,Na=Nd=1e+24 N=120 hook=False,V=-1.0,NONCONV,60,1.653870e-05,34.7,graceful
+diode1d,Na=Nd=1e+24 N=120 hook=False,V=-0.5,NONCONV,60,1.653870e-05,34.7,graceful
+diode1d,Na=Nd=1e+24 N=120 hook=False,V=+0.3,NONCONV,60,1.653870e-05,34.7,graceful
+diode1d,Na=Nd=1e+24 N=120 hook=False,V=+0.6,NONCONV,60,1.653870e-05,34.7,graceful
+diode1d,Na=Nd=1e+24 N=120 hook=False,V=+0.8,NONCONV,60,1.653870e-05,34.7,graceful
+diode1d,Na=Nd=1e+26 N=40 hook=True,eq,PASS,3,,1.1,
+diode1d,Na=Nd=1e+26 N=40 hook=True,V=-1.0,PASS,11,-6.039343e-10,1.1,
+diode1d,Na=Nd=1e+26 N=40 hook=True,V=-0.5,PASS,6,1.456962e-03,1.1,
+diode1d,Na=Nd=1e+26 N=40 hook=True,V=+0.3,PASS,17,6.614619e-05,1.1,
+diode1d,Na=Nd=1e+26 N=40 hook=True,V=+0.6,PASS,5,9.833366e+00,1.1,
+diode1d,Na=Nd=1e+26 N=40 hook=True,V=+0.8,PASS,4,2.250767e+04,1.1,
+diode1d,Na=Nd=1e+26 N=40 hook=False,eq,PASS,3,,8.6,
+diode1d,Na=Nd=1e+26 N=40 hook=False,V=-1.0,PASS,4,6.936928e-05,8.6,
+diode1d,Na=Nd=1e+26 N=40 hook=False,V=-0.5,NONCONV,60,6.936928e-05,8.6,graceful
+diode1d,Na=Nd=1e+26 N=40 hook=False,V=+0.3,NONCONV,60,1.454187e-01,8.6,graceful
+diode1d,Na=Nd=1e+26 N=40 hook=False,V=+0.6,NONCONV,60,5.924494e+00,8.6,graceful
+diode1d,Na=Nd=1e+26 N=40 hook=False,V=+0.8,NONCONV,60,-1.185142e+01,8.6,graceful
+diode1d,Na=Nd=1e+26 N=80 hook=True,eq,PASS,4,,2.4,
+diode1d,Na=Nd=1e+26 N=80 hook=True,V=-1.0,PASS,11,-5.916861e-10,2.4,
+diode1d,Na=Nd=1e+26 N=80 hook=True,V=-0.5,PASS,6,2.951282e-03,2.4,
+diode1d,Na=Nd=1e+26 N=80 hook=True,V=+0.3,PASS,18,6.481390e-05,2.4,
+diode1d,Na=Nd=1e+26 N=80 hook=True,V=+0.6,PASS,5,9.636152e+00,2.4,
+diode1d,Na=Nd=1e+26 N=80 hook=True,V=+0.8,PASS,4,2.206611e+04,2.4,
+diode1d,Na=Nd=1e+26 N=80 hook=False,eq,PASS,4,,19.9,
+diode1d,Na=Nd=1e+26 N=80 hook=False,V=-1.0,PASS,6,-1.826999e-03,19.9,
+diode1d,Na=Nd=1e+26 N=80 hook=False,V=-0.5,NONCONV,60,-1.826999e-03,19.9,graceful
+diode1d,Na=Nd=1e+26 N=80 hook=False,V=+0.3,NONCONV,60,5.120447e+01,19.9,graceful
+diode1d,Na=Nd=1e+26 N=80 hook=False,V=+0.6,NONCONV,60,2.710486e+01,19.9,graceful
+diode1d,Na=Nd=1e+26 N=80 hook=False,V=+0.8,NONCONV,60,2.710486e+01,19.9,graceful
+diode1d,Na=Nd=1e+26 N=120 hook=True,eq,PASS,4,,3.0,
+diode1d,Na=Nd=1e+26 N=120 hook=True,V=-1.0,PASS,12,-5.878555e-10,3.0,
+diode1d,Na=Nd=1e+26 N=120 hook=True,V=-0.5,PASS,6,-5.877617e-10,3.0,
+diode1d,Na=Nd=1e+26 N=120 hook=True,V=+0.3,PASS,17,6.439217e-05,3.0,
+diode1d,Na=Nd=1e+26 N=120 hook=True,V=+0.6,PASS,6,9.574578e+00,3.0,
+diode1d,Na=Nd=1e+26 N=120 hook=True,V=+0.8,PASS,4,2.192562e+04,3.0,
+diode1d,Na=Nd=1e+26 N=120 hook=False,eq,PASS,4,,30.7,
+diode1d,Na=Nd=1e+26 N=120 hook=False,V=-1.0,PASS,4,2.752023e-03,30.7,
+diode1d,Na=Nd=1e+26 N=120 hook=False,V=-0.5,NONCONV,60,2.752023e-03,30.7,graceful
+diode1d,Na=Nd=1e+26 N=120 hook=False,V=+0.3,NONCONV,60,1.138582e+01,30.7,graceful
+diode1d,Na=Nd=1e+26 N=120 hook=False,V=+0.6,NONCONV,60,-4.740071e+00,30.7,graceful
+diode1d,Na=Nd=1e+26 N=120 hook=False,V=+0.8,NONCONV,60,-1.113708e+01,30.7,graceful
+diode2d,Na=Nd=1e+21 8x5 hook=True,eq,PASS,6,,4.8,
+diode2d,Na=Nd=1e+21 8x5 hook=True,jump V=+0.3,PASS,10,2.009591e-05,4.8,
+diode2d,Na=Nd=1e+21 8x5 hook=True,jump V=+0.5,PASS,11,3.071543e-02,4.8,
+diode2d,Na=Nd=1e+21 8x5 hook=True,jump V=+0.7,PASS,16,2.396855e+00,4.8,
+diode2d,Na=Nd=1e+21 8x5 hook=True,jump V=-0.5,PASS,18,-1.098222e-09,4.8,
+diode2d,Na=Nd=1e+21 8x5 hook=False,eq,PASS,6,,49.6,
+diode2d,Na=Nd=1e+21 8x5 hook=False,jump V=+0.3,NONCONV,40,9.191862e-15,49.6,graceful
+diode2d,Na=Nd=1e+21 8x5 hook=False,jump V=+0.5,NONCONV,40,9.191862e-15,49.6,graceful
+diode2d,Na=Nd=1e+21 8x5 hook=False,jump V=+0.7,NONCONV,40,9.191862e-15,49.6,graceful
+diode2d,Na=Nd=1e+21 8x5 hook=False,jump V=-0.5,NONCONV,40,9.191862e-15,49.6,graceful
+diode2d,Na=Nd=1e+21 12x6 hook=True,eq,PASS,6,,9.6,
+diode2d,Na=Nd=1e+21 12x6 hook=True,jump V=+0.3,PASS,11,1.799269e-05,9.6,
+diode2d,Na=Nd=1e+21 12x6 hook=True,jump V=+0.5,PASS,13,2.813983e-02,9.6,
+diode2d,Na=Nd=1e+21 12x6 hook=True,jump V=+0.7,PASS,19,2.331275e+00,9.6,
+diode2d,Na=Nd=1e+21 12x6 hook=True,jump V=-0.5,PASS,16,-9.303796e-10,9.6,
+diode2d,Na=Nd=1e+21 12x6 hook=False,eq,PASS,6,,112.5,
+diode2d,Na=Nd=1e+21 12x6 hook=False,jump V=+0.3,NONCONV,40,6.539150e-15,112.5,graceful
+diode2d,Na=Nd=1e+21 12x6 hook=False,jump V=+0.5,NONCONV,40,6.539150e-15,112.5,graceful
+diode2d,Na=Nd=1e+21 12x6 hook=False,jump V=+0.7,NONCONV,40,6.539150e-15,112.5,graceful
+diode2d,Na=Nd=1e+21 12x6 hook=False,jump V=-0.5,NONCONV,40,6.539150e-15,112.5,graceful
+diode2d,Na=Nd=1e+21 16x8 hook=True,eq,PASS,6,,26.3,
+diode2d,Na=Nd=1e+21 16x8 hook=True,jump V=+0.3,PASS,12,1.676976e-05,26.3,
+diode2d,Na=Nd=1e+21 16x8 hook=True,jump V=+0.5,PASS,13,2.635826e-02,26.3,
+diode2d,Na=Nd=1e+21 16x8 hook=True,jump V=+0.7,PASS,17,2.227690e+00,26.3,
+diode2d,Na=Nd=1e+21 16x8 hook=True,jump V=-0.5,PASS,17,-8.999919e-10,26.3,
+diode2d,Na=Nd=1e+21 16x8 hook=False,eq,PASS,6,,163.2,
+diode2d,Na=Nd=1e+21 16x8 hook=False,jump V=+0.3,NONCONV,40,-2.675688e-15,163.2,graceful
+diode2d,Na=Nd=1e+21 16x8 hook=False,jump V=+0.5,NONCONV,40,-2.675688e-15,163.2,graceful
+diode2d,Na=Nd=1e+21 16x8 hook=False,jump V=+0.7,NONCONV,40,-2.675688e-15,163.2,graceful
+diode2d,Na=Nd=1e+21 16x8 hook=False,jump V=-0.5,NONCONV,40,-2.675688e-15,163.2,graceful
+diode2d,Na=Nd=1e+22 8x5 hook=True,eq,PASS,6,,13.8,
+diode2d,Na=Nd=1e+22 8x5 hook=True,jump V=+0.3,PASS,11,1.485255e-06,13.8,
+diode2d,Na=Nd=1e+22 8x5 hook=True,jump V=+0.5,PASS,14,3.210578e-03,13.8,
+diode2d,Na=Nd=1e+22 8x5 hook=True,jump V=+0.7,NONCONV,40,-2.280152e-15,13.8,graceful
+diode2d,Na=Nd=1e+22 8x5 hook=True,jump V=-0.5,PASS,17,-1.914588e-11,13.8,
+diode2d,Na=Nd=1e+22 8x5 hook=False,eq,PASS,6,,48.6,
+diode2d,Na=Nd=1e+22 8x5 hook=False,jump V=+0.3,NONCONV,40,-2.280152e-15,48.6,graceful
+diode2d,Na=Nd=1e+22 8x5 hook=False,jump V=+0.5,NONCONV,40,-2.280152e-15,48.6,graceful
+diode2d,Na=Nd=1e+22 8x5 hook=False,jump V=+0.7,NONCONV,40,-2.280152e-15,48.6,graceful
+diode2d,Na=Nd=1e+22 8x5 hook=False,jump V=-0.5,NONCONV,40,-2.280152e-15,48.6,graceful
+diode2d,Na=Nd=1e+22 12x6 hook=True,eq,PASS,6,,27.4,
+diode2d,Na=Nd=1e+22 12x6 hook=True,jump V=+0.3,PASS,11,1.334726e-06,27.4,
+diode2d,Na=Nd=1e+22 12x6 hook=True,jump V=+0.5,PASS,16,2.860507e-03,27.4,
+diode2d,Na=Nd=1e+22 12x6 hook=True,jump V=+0.7,PASS,18,3.189413e+00,27.4,
+diode2d,Na=Nd=1e+22 12x6 hook=True,jump V=-0.5,NONCONV,40,1.824951e-26,27.4,graceful
+diode2d,Na=Nd=1e+22 12x6 hook=False,eq,PASS,6,,87.1,
+diode2d,Na=Nd=1e+22 12x6 hook=False,jump V=+0.3,NONCONV,40,1.824951e-26,87.1,graceful
+diode2d,Na=Nd=1e+22 12x6 hook=False,jump V=+0.5,NONCONV,40,1.824951e-26,87.1,graceful
+diode2d,Na=Nd=1e+22 12x6 hook=False,jump V=+0.7,NONCONV,40,1.824951e-26,87.1,graceful
+diode2d,Na=Nd=1e+22 12x6 hook=False,jump V=-0.5,NONCONV,40,1.824951e-26,87.1,graceful
+diode2d,Na=Nd=1e+22 16x8 hook=True,eq,PASS,6,,49.1,
+diode2d,Na=Nd=1e+22 16x8 hook=True,jump V=+0.3,PASS,12,1.230467e-06,49.1,
+diode2d,Na=Nd=1e+22 16x8 hook=True,jump V=+0.5,PASS,15,2.645361e-03,49.1,
+diode2d,Na=Nd=1e+22 16x8 hook=True,jump V=+0.7,PASS,16,3.009151e+00,49.1,
+diode2d,Na=Nd=1e+22 16x8 hook=True,jump V=-0.5,NONCONV,40,-4.188034e-15,49.1,graceful
+diode2d,Na=Nd=1e+22 16x8 hook=False,eq,PASS,6,,158.7,
+diode2d,Na=Nd=1e+22 16x8 hook=False,jump V=+0.3,NONCONV,40,-4.188034e-15,158.7,graceful
+diode2d,Na=Nd=1e+22 16x8 hook=False,jump V=+0.5,NONCONV,40,-4.188034e-15,158.7,graceful
+diode2d,Na=Nd=1e+22 16x8 hook=False,jump V=+0.7,NONCONV,40,-4.188034e-15,158.7,graceful
+diode2d,Na=Nd=1e+22 16x8 hook=False,jump V=-0.5,NONCONV,40,-4.188034e-15,158.7,graceful
+diode2d,Na=Nd=1e+24 8x5 hook=True,eq,PASS,4,,4.5,
+diode2d,Na=Nd=1e+24 8x5 hook=True,jump V=+0.3,PASS,13,1.378029e-08,4.5,
+diode2d,Na=Nd=1e+24 8x5 hook=True,jump V=+0.5,PASS,13,3.143017e-05,4.5,
+diode2d,Na=Nd=1e+24 8x5 hook=True,jump V=+0.7,PASS,15,7.119847e-02,4.5,
+diode2d,Na=Nd=1e+24 8x5 hook=True,jump V=-0.5,PASS,11,-1.066033e-12,4.5,
+diode2d,Na=Nd=1e+24 8x5 hook=False,eq,PASS,4,,49.9,
+diode2d,Na=Nd=1e+24 8x5 hook=False,jump V=+0.3,NONCONV,40,4.377891e-13,49.9,graceful
+diode2d,Na=Nd=1e+24 8x5 hook=False,jump V=+0.5,NONCONV,40,4.377891e-13,49.9,graceful
+diode2d,Na=Nd=1e+24 8x5 hook=False,jump V=+0.7,NONCONV,40,4.377891e-13,49.9,graceful
+diode2d,Na=Nd=1e+24 8x5 hook=False,jump V=-0.5,NONCONV,40,4.377891e-13,49.9,graceful
+diode2d,Na=Nd=1e+24 12x6 hook=True,eq,PASS,4,,10.6,
+diode2d,Na=Nd=1e+24 12x6 hook=True,jump V=+0.3,PASS,13,1.202677e-08,10.6,
+diode2d,Na=Nd=1e+24 12x6 hook=True,jump V=+0.5,PASS,15,2.747005e-05,10.6,
+diode2d,Na=Nd=1e+24 12x6 hook=True,jump V=+0.7,PASS,19,6.248926e-02,10.6,
+diode2d,Na=Nd=1e+24 12x6 hook=True,jump V=-0.5,PASS,14,-2.649586e-12,10.6,
+diode2d,Na=Nd=1e+24 12x6 hook=False,eq,PASS,4,,89.4,
+diode2d,Na=Nd=1e+24 12x6 hook=False,jump V=+0.3,NONCONV,40,3.669090e-13,89.4,graceful
+diode2d,Na=Nd=1e+24 12x6 hook=False,jump V=+0.5,NONCONV,40,3.669090e-13,89.4,graceful
+diode2d,Na=Nd=1e+24 12x6 hook=False,jump V=+0.7,NONCONV,40,3.669090e-13,89.4,graceful
+diode2d,Na=Nd=1e+24 12x6 hook=False,jump V=-0.5,NONCONV,40,3.669090e-13,89.4,graceful
+diode2d,Na=Nd=1e+24 16x8 hook=True,eq,PASS,4,,18.0,
+diode2d,Na=Nd=1e+24 16x8 hook=True,jump V=+0.3,PASS,13,1.099339e-08,18.0,
+diode2d,Na=Nd=1e+24 16x8 hook=True,jump V=+0.5,PASS,15,2.511772e-05,18.0,
+diode2d,Na=Nd=1e+24 16x8 hook=True,jump V=+0.7,PASS,18,5.723036e-02,18.0,
+diode2d,Na=Nd=1e+24 16x8 hook=True,jump V=-0.5,PASS,13,-7.423146e-14,18.0,
+diode2d,Na=Nd=1e+24 16x8 hook=False,eq,PASS,4,,157.2,
+diode2d,Na=Nd=1e+24 16x8 hook=False,jump V=+0.3,NONCONV,40,-3.812041e-12,157.2,graceful
+diode2d,Na=Nd=1e+24 16x8 hook=False,jump V=+0.5,NONCONV,40,-3.812041e-12,157.2,graceful
+diode2d,Na=Nd=1e+24 16x8 hook=False,jump V=+0.7,NONCONV,40,-3.812041e-12,157.2,graceful
+diode2d,Na=Nd=1e+24 16x8 hook=False,jump V=-0.5,NONCONV,40,-3.812041e-12,157.2,graceful
+diode2d,Na=Nd=1e+26 8x5 hook=True,eq,PASS,3,,4.3,
+diode2d,Na=Nd=1e+26 8x5 hook=True,jump V=+0.3,PASS,12,3.039604e-10,4.3,
+diode2d,Na=Nd=1e+26 8x5 hook=True,jump V=+0.5,PASS,14,3.152458e-07,4.3,
+diode2d,Na=Nd=1e+26 8x5 hook=True,jump V=+0.7,PASS,15,7.198584e-04,4.3,
+diode2d,Na=Nd=1e+26 8x5 hook=True,jump V=-0.5,PASS,11,-1.214145e-10,4.3,
+diode2d,Na=Nd=1e+26 8x5 hook=False,eq,PASS,3,,49.6,
+diode2d,Na=Nd=1e+26 8x5 hook=False,jump V=+0.3,NONCONV,40,-1.089609e-10,49.6,graceful
+diode2d,Na=Nd=1e+26 8x5 hook=False,jump V=+0.5,NONCONV,40,-1.089609e-10,49.6,graceful
+diode2d,Na=Nd=1e+26 8x5 hook=False,jump V=+0.7,NONCONV,40,-1.089609e-10,49.6,graceful
+diode2d,Na=Nd=1e+26 8x5 hook=False,jump V=-0.5,NONCONV,40,-1.089609e-10,49.6,graceful
+diode2d,Na=Nd=1e+26 12x6 hook=True,eq,PASS,3,,9.5,
+diode2d,Na=Nd=1e+26 12x6 hook=True,jump V=+0.3,PASS,12,8.855657e-11,9.5,
+diode2d,Na=Nd=1e+26 12x6 hook=True,jump V=+0.5,PASS,16,2.751889e-07,9.5,
+diode2d,Na=Nd=1e+26 12x6 hook=True,jump V=+0.7,PASS,19,6.286815e-04,9.5,
+diode2d,Na=Nd=1e+26 12x6 hook=True,jump V=-0.5,PASS,11,-8.093319e-16,9.5,
+diode2d,Na=Nd=1e+26 12x6 hook=False,eq,PASS,3,,86.2,
+diode2d,Na=Nd=1e+26 12x6 hook=False,jump V=+0.3,NONCONV,40,0.000000e+00,86.2,graceful
+diode2d,Na=Nd=1e+26 12x6 hook=False,jump V=+0.5,NONCONV,40,0.000000e+00,86.2,graceful
+diode2d,Na=Nd=1e+26 12x6 hook=False,jump V=+0.7,NONCONV,40,0.000000e+00,86.2,graceful
+diode2d,Na=Nd=1e+26 12x6 hook=False,jump V=-0.5,NONCONV,40,0.000000e+00,86.2,graceful
+diode2d,Na=Nd=1e+26 16x8 hook=True,eq,PASS,3,,16.5,
+diode2d,Na=Nd=1e+26 16x8 hook=True,jump V=+0.3,PASS,12,8.086434e-11,16.5,
+diode2d,Na=Nd=1e+26 16x8 hook=True,jump V=+0.5,PASS,17,2.516639e-07,16.5,
+diode2d,Na=Nd=1e+26 16x8 hook=True,jump V=+0.7,PASS,19,5.745395e-04,16.5,
+diode2d,Na=Nd=1e+26 16x8 hook=True,jump V=-0.5,PASS,11,-7.386972e-16,16.5,
+diode2d,Na=Nd=1e+26 16x8 hook=False,eq,PASS,3,,160.4,
+diode2d,Na=Nd=1e+26 16x8 hook=False,jump V=+0.3,NONCONV,40,0.000000e+00,160.4,graceful
+diode2d,Na=Nd=1e+26 16x8 hook=False,jump V=+0.5,NONCONV,40,0.000000e+00,160.4,graceful
+diode2d,Na=Nd=1e+26 16x8 hook=False,jump V=+0.7,NONCONV,40,0.000000e+00,160.4,graceful
+diode2d,Na=Nd=1e+26 16x8 hook=False,jump V=-0.5,NONCONV,40,0.000000e+00,160.4,graceful
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,eq,PASS,10,,48.3,
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=0,PASS,10,-6.419892e-09,48.3,
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=0.5,PASS,8,-3.156300e-02,48.3,
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=1.0,PASS,8,-1.092675e+01,48.3,
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=2.0,PASS,9,-4.306674e+01,48.3,
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,on/off ratio=6.71e+09,PASS,0,,48.3,metric check (harness row repaired post-hoc)
+mosfet,Na=1e+22 Nd=1e+25 14x(8+3) hook=True,"brutal eq->Vd=1,Vg=2",NONCONV,40,-2.814260e+02,48.3,graceful
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,eq,PASS,10,,47.3,
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=0,PASS,9,-7.113677e-09,47.3,
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=0.5,PASS,8,-3.250205e-02,47.3,
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=1.0,PASS,7,-1.124725e+01,47.3,
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=2.0,PASS,8,-4.489735e+01,47.3,
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,on/off ratio=6.31e+09,PASS,0,,47.3,metric check (harness row repaired post-hoc)
+mosfet,Na=1e+22 Nd=1e+26 14x(8+3) hook=True,"brutal eq->Vd=1,Vg=2",NONCONV,40,-2.930800e+02,47.3,graceful
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,eq,PASS,11,,47.7,
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=0,PASS,10,-1.225774e-10,47.7,
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=0.5,PASS,9,-1.188648e-04,47.7,
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=1.0,PASS,14,-4.069177e+00,47.7,
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=2.0,PASS,10,-3.542065e+01,47.7,
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,on/off ratio=2.89e+11,PASS,0,,47.7,metric check
+mosfet,Na=3e+22 Nd=1e+25 14x(8+3) hook=True,"brutal eq->Vd=1,Vg=2",NONCONV,40,-1.911813e+02,47.7,graceful
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,eq,PASS,9,,48.0,
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=0,PASS,17,-5.272823e-10,48.0,
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=0.5,PASS,9,-1.222160e-04,48.0,
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=1.0,PASS,11,-4.274917e+00,48.0,
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=2.0,PASS,11,-3.688676e+01,48.0,
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,on/off ratio=7.00e+10,PASS,0,,48.0,metric check
+mosfet,Na=3e+22 Nd=1e+26 14x(8+3) hook=True,"brutal eq->Vd=1,Vg=2",NONCONV,40,-2.360312e+02,48.0,graceful
+mosfet,Na=1e+23 Nd=1e+25 14x(8+3) hook=True,eq,NONCONV,40,,76.4,graceful
+mosfet,Na=1e+23 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=0,NONCONV,40,1.445399e-11,76.4,graceful
+mosfet,Na=1e+23 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=0.5,PASS,14,-3.041195e-10,76.4,
+mosfet,Na=1e+23 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=1.0,PASS,10,-3.558439e-04,76.4,
+mosfet,Na=1e+23 Nd=1e+25 14x(8+3) hook=True,Vd=0.1 Vg=2.0,PASS,36,-1.590699e+01,76.4,
+mosfet,Na=1e+23 Nd=1e+25 14x(8+3) hook=True,"brutal eq->Vd=1,Vg=2",NONCONV,40,-4.795673e+00,76.4,graceful
+mosfet,Na=1e+23 Nd=1e+26 14x(8+3) hook=True,eq,NONCONV,40,,74.4,graceful
+mosfet,Na=1e+23 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=0,NONCONV,40,-1.341330e-10,74.4,graceful
+mosfet,Na=1e+23 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=0.5,PASS,16,-5.874109e-10,74.4,
+mosfet,Na=1e+23 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=1.0,PASS,10,-3.633609e-04,74.4,
+mosfet,Na=1e+23 Nd=1e+26 14x(8+3) hook=True,Vd=0.1 Vg=2.0,NONCONV,40,-2.038775e+01,74.4,graceful
+mosfet,Na=1e+23 Nd=1e+26 14x(8+3) hook=True,"brutal eq->Vd=1,Vg=2",NONCONV,40,-6.011876e+01,74.4,graceful
+mosfet,"std (10, 6, 2) hook=True",eq,PASS,12,,30.8,
+mosfet,"std (10, 6, 2) hook=True",Vd=0.1 Vg=0,PASS,16,-5.289901e-10,30.8,
+mosfet,"std (10, 6, 2) hook=True",Vd=0.1 Vg=0.5,PASS,11,-7.987289e-04,30.8,
+mosfet,"std (10, 6, 2) hook=True",Vd=0.1 Vg=1.0,NONCONV,40,-1.036836e+01,30.8,graceful
+mosfet,"std (10, 6, 2) hook=True",Vd=0.1 Vg=2.0,PASS,38,-6.541463e+01,30.8,
+mosfet,"std (10, 6, 2) hook=True",on/off ratio=1.24e+11,PASS,0,,30.8,metric check
+mosfet,"std (10, 6, 2) hook=True","brutal eq->Vd=1,Vg=2",NONCONV,40,-3.913981e+02,30.8,graceful
+mosfet,"std (20, 10, 3) hook=True",eq,PASS,9,,81.8,
+mosfet,"std (20, 10, 3) hook=True",Vd=0.1 Vg=0,PASS,10,-7.623807e-10,81.8,
+mosfet,"std (20, 10, 3) hook=True",Vd=0.1 Vg=0.5,PASS,8,-9.357936e-05,81.8,
+mosfet,"std (20, 10, 3) hook=True",Vd=0.1 Vg=1.0,PASS,8,-3.938533e+00,81.8,
+mosfet,"std (20, 10, 3) hook=True",Vd=0.1 Vg=2.0,PASS,8,-3.649624e+01,81.8,
+mosfet,"std (20, 10, 3) hook=True",on/off ratio=4.79e+10,PASS,0,,81.8,metric check
+mosfet,"std (20, 10, 3) hook=True","brutal eq->Vd=1,Vg=2",NONCONV,40,-1.040866e+02,81.8,graceful
+mosfet,"std (28, 14, 4) hook=True",eq,PASS,9,,194.2,
+mosfet,"std (28, 14, 4) hook=True",Vd=0.1 Vg=0,PASS,9,-9.310830e-11,194.2,
+mosfet,"std (28, 14, 4) hook=True",Vd=0.1 Vg=0.5,PASS,9,-4.050261e-05,194.2,
+mosfet,"std (28, 14, 4) hook=True",Vd=0.1 Vg=1.0,PASS,8,-3.306186e+00,194.2,
+mosfet,"std (28, 14, 4) hook=True",Vd=0.1 Vg=2.0,PASS,8,-3.595160e+01,194.2,
+mosfet,"std (28, 14, 4) hook=True",on/off ratio=3.86e+11,PASS,0,,194.2,metric check
+mosfet,"std (28, 14, 4) hook=True","brutal eq->Vd=1,Vg=2",NONCONV,40,-2.148081e+03,194.2,graceful
+mosfet,"std (14, 8, 3) hook=False",eq,PASS,9,,181.4,
+mosfet,"std (14, 8, 3) hook=False",Vd=0.1 Vg=0,NONCONV,40,-8.325499e-11,181.5,graceful
+mosfet,"std (14, 8, 3) hook=False",Vd=0.1 Vg=0.5,NONCONV,40,-8.325499e-11,181.5,graceful
+mosfet,"std (14, 8, 3) hook=False",Vd=0.1 Vg=1.0,NONCONV,40,-8.325499e-11,181.5,graceful
+mosfet,"std (14, 8, 3) hook=False",Vd=0.1 Vg=2.0,NONCONV,40,-8.310563e-03,181.5,graceful
+mosfet,"std (14, 8, 3) hook=False","brutal eq->Vd=1,Vg=2",NONCONV,40,-8.309121e-02,181.5,graceful
+mosfet,"std (20, 10, 3) hook=False",eq,PASS,8,,95.7,
+mosfet,"std (20, 10, 3) hook=False",Vd=0.1 Vg=0,PASS,9,-6.519671e-10,95.7,
+mosfet,"std (20, 10, 3) hook=False",Vd=0.1 Vg=0.5,PASS,8,-9.357975e-05,95.7,
+mosfet,"std (20, 10, 3) hook=False",Vd=0.1 Vg=1.0,PASS,13,-3.938533e+00,95.7,
+mosfet,"std (20, 10, 3) hook=False",Vd=0.1 Vg=2.0,PASS,13,-3.649624e+01,95.7,
+mosfet,"std (20, 10, 3) hook=False",on/off ratio=5.60e+10,PASS,0,,95.7,metric check
+mosfet,"std (20, 10, 3) hook=False","brutal eq->Vd=1,Vg=2",NONCONV,40,-2.147874e-01,95.7,graceful
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),eq,PASS,10,,84.5,
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),Vd=0.1 Vg=0,PASS,10,-1.690558e-10,84.5,
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),Vd=0.1 Vg=0.5,PASS,10,-1.440969e-05,84.5,
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),Vd=0.1 Vg=1.0,PASS,8,-2.505349e+00,84.5,
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),Vd=0.1 Vg=2.0,PASS,10,-3.389929e+01,84.5,
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),on/off ratio=2.01e+11,PASS,0,,84.5,metric check
+mosfet,graded xg=1.0 yg=1.5 20x(10+3),"brutal eq->Vd=1,Vg=2",NONCONV,40,1.577635e+02,84.5,graceful
+mosfet,graded xg=1.4 yg=1.5 20x(10+3),eq,NONCONV,40,,118.6,graceful
+mosfet,graded xg=1.4 yg=1.5 20x(10+3),Vd=0.1 Vg=0,NONCONV,40,2.954293e-10,118.6,graceful
+mosfet,graded xg=1.4 yg=1.5 20x(10+3),Vd=0.1 Vg=0.5,PASS,17,-1.445562e-05,118.6,
+mosfet,graded xg=1.4 yg=1.5 20x(10+3),Vd=0.1 Vg=1.0,PASS,8,-2.694781e+00,118.6,
+mosfet,graded xg=1.4 yg=1.5 20x(10+3),Vd=0.1 Vg=2.0,PASS,10,-3.794016e+01,118.6,
+mosfet,graded xg=1.4 yg=1.5 20x(10+3),"brutal eq->Vd=1,Vg=2",NONCONV,40,-5.100701e-01,118.6,graceful
+mosfet,fast() preset hook=True,eq,PASS,9,,23.4,
+mosfet,fast() preset hook=True,Vd=0.5 Vg=1,NONCONV,40,-3.607716e-10,23.4,graceful
+diode3d,"Na=Nd=1e+22 (6, 4, 4) hook=True",eq,PASS,5,,26.4,
+diode3d,"Na=Nd=1e+22 (6, 4, 4) hook=True",V=+0.3,PASS,9,2.328939e-12,26.4,
+diode3d,"Na=Nd=1e+22 (6, 4, 4) hook=True",V=+0.5,PASS,5,5.042318e-09,26.4,
+diode3d,"Na=Nd=1e+22 (6, 4, 4) hook=True",V=-0.5,PASS,10,-2.583565e-17,26.4,
+diode3d,"Na=Nd=1e+22 (8, 5, 4) hook=True",eq,PASS,6,,52.4,
+diode3d,"Na=Nd=1e+22 (8, 5, 4) hook=True",V=+0.3,PASS,11,1.980340e-12,52.4,
+diode3d,"Na=Nd=1e+22 (8, 5, 4) hook=True",V=+0.5,PASS,5,4.280771e-09,52.4,
+diode3d,"Na=Nd=1e+22 (8, 5, 4) hook=True",V=-0.5,PASS,12,-2.552784e-17,52.4,
+diode3d,"Na=Nd=1e+24 (6, 4, 4) hook=True",eq,PASS,3,,25.1,
+diode3d,"Na=Nd=1e+24 (6, 4, 4) hook=True",V=+0.3,PASS,8,2.202706e-14,25.1,
+diode3d,"Na=Nd=1e+24 (6, 4, 4) hook=True",V=+0.5,PASS,4,5.014153e-11,25.1,
+diode3d,"Na=Nd=1e+24 (6, 4, 4) hook=True",V=-0.5,PASS,13,1.209662e-18,25.1,
+diode3d,"Na=Nd=1e+24 (8, 5, 4) hook=True",eq,PASS,4,,49.6,
+diode3d,"Na=Nd=1e+24 (8, 5, 4) hook=True",V=+0.3,PASS,11,1.837105e-14,49.6,
+diode3d,"Na=Nd=1e+24 (8, 5, 4) hook=True",V=+0.5,PASS,5,4.190690e-11,49.6,
+diode3d,"Na=Nd=1e+24 (8, 5, 4) hook=True",V=-0.5,PASS,13,-1.421377e-18,49.6,
+mosfet,graded xg=1.4 yg=1.0 20x(10+3),eq,PASS,8,,305.3,
+mosfet,graded xg=1.4 yg=1.0 20x(10+3),Vd=0.1 Vg=0,NONCONV,40,2.442447e-05,305.3,graceful
+mosfet,graded xg=1.4 yg=1.0 20x(10+3),Vd=0.1 Vg=0.5,NONCONV,40,-3.035335e-04,305.3,graceful
+mosfet,graded xg=1.4 yg=1.0 20x(10+3),Vd=0.1 Vg=1.0,NONCONV,40,-6.115068e-04,305.3,graceful
+mosfet,graded xg=1.4 yg=1.0 20x(10+3),Vd=0.1 Vg=2.0,NONCONV,40,-1.247894e-03,305.3,graceful
+mosfet,graded xg=1.4 yg=1.0 20x(10+3),"brutal eq->Vd=1,Vg=2",PASS,26,-2.526568e+02,305.3,
+mosfet,graded xg=1.6 yg=1.8 20x(10+3),eq,NONCONV,40,,286.3,graceful
+mosfet,graded xg=1.6 yg=1.8 20x(10+3),Vd=0.1 Vg=0,NONCONV,40,-2.971590e-11,286.3,graceful
+mosfet,graded xg=1.6 yg=1.8 20x(10+3),Vd=0.1 Vg=0.5,NONCONV,40,-2.971590e-11,286.3,graceful
+mosfet,graded xg=1.6 yg=1.8 20x(10+3),Vd=0.1 Vg=1.0,NONCONV,40,9.532406e-04,286.3,graceful
+mosfet,graded xg=1.6 yg=1.8 20x(10+3),Vd=0.1 Vg=2.0,NONCONV,40,-1.998792e+00,286.3,graceful
+mosfet,graded xg=1.6 yg=1.8 20x(10+3),"brutal eq->Vd=1,Vg=2",NONCONV,40,-5.948619e-04,286.3,graceful

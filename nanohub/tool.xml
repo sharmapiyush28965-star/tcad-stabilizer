@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- STARTER tool.xml for the tcad-stabilizer nanoHUB tool (Rappture route).
+     NOT yet tested inside a nanoHUB Workspace — validate against the
+     Rappture documentation there before publishing. The driver script
+     (driver.py, not included) reads these inputs via the Rappture
+     library, calls the tcad-stabilizer solver, and returns the outputs.
+     See NANOHUB.md for the full submission guide. -->
+<run>
+  <tool>
+    <about>
+      <label>tcad-stabilizer — diode I-V solver</label>
+      <description>
+        Drift-diffusion silicon diode solver with a Newton stabilizer
+        that converges on hard bias points where plain Newton fails.
+        Enter the doping and bias range; the tool returns the I-V curve.
+      </description>
+    </about>
+    <command>@tool/driver.py @driver</command>
+
+    <input>
+      <number id="Na">
+        <about><label>Acceptor doping Na (m^-3)</label></about>
+        <default>1e22</default>
+        <min>1e21</min>
+        <max>1e26</max>
+      </number>
+      <number id="Nd">
+        <about><label>Donor doping Nd (m^-3)</label></about>
+        <default>1e22</default>
+        <min>1e21</min>
+        <max>1e26</max>
+      </number>
+      <number id="Vmax">
+        <about><label>Maximum forward voltage (V)</label></about>
+        <default>0.7</default>
+        <min>0.1</min>
+        <max>1.0</max>
+      </number>
+      <number id="Npoints">
+        <about><label>Number of bias points</label></about>
+        <default>15</default>
+        <min>5</min>
+        <max>50</max>
+      </number>
+    </input>
+
+    <output>
+      <curve id="iv">
+        <about><label>Diode I-V curve</label></about>
+        <component>
+          <xy>Voltage (V) vs current density (A/m^2)</xy>
+        </component>
+      </curve>
+      <log id="log">
+        <about><label>Solver log</label></about>
+      </log>
+    </output>
+  </tool>
+</run>
