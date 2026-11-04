@@ -11,11 +11,13 @@ device simulation without a commercial TCAD seat.
 ## Install
 
 ```bash
-pip install tcad-stabilizer
+pip install git+https://github.com/sharmapiyush28965-star/tcad-stabilizer.git
 ```
 
 Requires Python 3.8+ and NumPy + SciPy. Plotting examples need
-Matplotlib (`pip install tcad-stabilizer[plot]`).
+Matplotlib (`pip install matplotlib`).
+
+(PyPI release coming soon — then `pip install tcad-stabilizer` will work.)
 
 ## Quickstart — a diode in 10 lines
 
