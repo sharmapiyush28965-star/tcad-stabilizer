@@ -80,14 +80,6 @@ When it asks for a password, paste the API token from Step 4.
 Expected output: `100%` upload progress, then a link to
 https://pypi.org/project/tcad-stabilizer/.
 
-**After the PyPI upload succeeds, revert the temporary install
-instructions:** in `README.md` change the Install section back to
-`pip install tcad-stabilizer` (and `pip install tcad-stabilizer[plot]`
-for the plot extra), and on the demo site (`~/workspace/tcad-demo/api/index.html`)
-change the "Runs anywhere" line back to `pip install tcad-stabilizer`.
-Then push the README to GitHub and redeploy the demo site. (These were
-pointed at the GitHub URL only because PyPI was not live yet.)
-
 ## Step 6 — Verify the public install (about 2 min)
 
 In a fresh terminal (any folder):
