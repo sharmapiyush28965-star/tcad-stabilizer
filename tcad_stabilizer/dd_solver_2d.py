@@ -31,6 +31,24 @@ class DDSolver2D:
         self.psi_b0 = Vt*np.arcsinh(self.C[0]/(2*ni))
         self.psi_b1 = Vt*np.arcsinh(self.C[self.Nx-1]/(2*ni))
 
+    def set_doping_profile(self, x_new, C_new):
+        """Replace the net doping profile with imported data (1D profile
+        along x, tiled over y — same profile at every depth). x_new/C_new
+        are position (m) and net doping Nd-Na (m^-3); interpolated onto
+        the mesh. Contact boundary values are recomputed. Returns the
+        new C array."""
+        x_new = np.asarray(x_new, dtype=float)
+        C_new = np.asarray(C_new, dtype=float)
+        if x_new.shape != C_new.shape or x_new.size < 2:
+            raise ValueError("x_new and C_new must be equal-length arrays of >= 2 points")
+        if np.any(np.diff(x_new) <= 0):
+            raise ValueError("x_new must be strictly increasing")
+        xc = np.linspace(0, self.Lx, self.Nx)
+        C1d = np.interp(xc, x_new, C_new)
+        self.C = np.tile(C1d, self.Ny)
+        self.set_bias(self.Vleft, self.Vright)
+        return self.C
+
     def set_bias(self, Vl, Vr):
         self.Vleft, self.Vright = Vl, Vr
         self._update_bc()

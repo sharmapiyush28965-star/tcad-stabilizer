@@ -99,6 +99,21 @@ class DriftDiffusion1D:
         self.flux_mult = None
         self._edge = None
 
+    def set_doping_profile(self, x_new, C_new):
+        """Replace the net doping profile C = Nd - Na (m^-3) with imported
+        data (e.g. a SIMS/process profile). x_new/C_new are position (m)
+        and net doping (m^-3), any spacing; interpolated onto the mesh.
+        Contact boundary values are recomputed. Returns the new C array."""
+        x_new = np.asarray(x_new, dtype=float)
+        C_new = np.asarray(C_new, dtype=float)
+        if x_new.shape != C_new.shape or x_new.size < 2:
+            raise ValueError("x_new and C_new must be equal-length arrays of >= 2 points")
+        if np.any(np.diff(x_new) <= 0):
+            raise ValueError("x_new must be strictly increasing")
+        self.C = np.interp(self.xc, x_new, C_new)
+        self.set_bias(self.Vleft, self.Vright)
+        return self.C
+
     # ---------------- residuals ----------------
     def recombination(self, n, p):
         n1 = p1 = ni

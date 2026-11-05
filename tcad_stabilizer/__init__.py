@@ -1,8 +1,11 @@
-"""TCAD Stabilizer v0.6 — Newton stabilization hooks for drift-diffusion solvers.
+"""TCAD Stabilizer v0.7 — Newton stabilization hooks for drift-diffusion solvers.
 1D/2D/3D diodes, 2D MOSFET, and 3D MOSFET.
 v0.6: sparse colored Jacobians + gated reuse in the 2D solvers (20-70x
 faster, identical results), MOSFET adaptive mesh options, fast modes.
-See SPEED.md and SWEEP.md."""
+See SPEED.md and SWEEP.md.
+v0.7: fab-grade Phase 1 (fab.py) — doping-profile import, measured-IV
+calibration fit, compact-model parameter extraction. See
+docs/FAB-GRADE-PLAN.md."""
 from .stabilizer import make_stabilizer, solve_with_fallback
 from .hook_interface import VERSION as HOOK_VERSION
 try:
@@ -26,7 +29,7 @@ try:
 except ImportError:
     _has_mosfet3d = False
 
-__version__ = "0.6.0"
+__version__ = "0.7.0"
 __all__ = ["make_stabilizer", "solve_with_fallback", "HOOK_VERSION"]
 if _has_2d:
     __all__.append("Diode2D")

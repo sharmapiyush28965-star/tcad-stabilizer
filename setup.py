@@ -7,7 +7,7 @@ LONG_DESC = (HERE / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="tcad-stabilizer",
-    version="0.6.0",
+    version="0.7.0",
     description="Drift-diffusion TCAD device solver (1D/2D/3D diodes and MOSFETs) with a Newton stabilizer that converges on hard bias points",
     long_description=LONG_DESC,
     long_description_content_type="text/markdown",

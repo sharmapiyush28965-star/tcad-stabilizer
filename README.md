@@ -127,6 +127,26 @@ that cannot converge returns `converged=False` with a finite best
 state; it never crashes your script. Details in
 `tcad_stabilizer/SWEEP.md` (raw data: `sweep_results.csv`).
 
+## Fab-grade (v0.7)
+
+Built for semiconductor fabs — a fab's first check of any TCAD tool is
+"reproduce OUR measured data":
+
+- **Doping-profile import** — real SIMS/process profiles (CSV) straight
+  into the 1D/2D diode solvers (`set_doping_profile`), instead of ideal
+  step junctions.
+- **Calibration fit** — import measured IV (CSV), and the solver fits
+  its own parameters (SRH lifetime, doping scale, series resistance)
+  to your data, reporting the fit error honestly
+  (`tcad_stabilizer.fab.calibrate_diode`).
+- **Parameter extraction** — diode ideality n, Is, Rs; MOSFET Vt
+  (max-gm, linear-region corrected), subthreshold slope, DIBL,
+  Ion/Ioff, gm_max (`tcad_stabilizer.fab.extract_diode` /
+  `extract_mosfet`).
+
+Roadmap: `docs/FAB-GRADE-PLAN.md` (Phase 2: interface traps,
+self-heating, quantum correction; Phase 3: variability, TCAD-to-SPICE).
+
 ## Honest limits
 
 - Boltzmann statistics, steady state only, structured meshes.
@@ -138,8 +158,10 @@ state; it never crashes your script. Details in
   single step; use bias stepping, as the test suites do.
 - Adaptive mesh grading beyond `x_grade` 1.4 / `y_grade` 1.5 is not
   recommended.
-- This is a research/teaching/small-lab tool. It is not a replacement
-  for commercial TCAD (Synopsys, Silvaco) for production fab work.
+- v0.7 adds fab calibration and extraction, but this is not yet a
+  replacement for commercial TCAD (Synopsys, Silvaco) for production
+  fab sign-off work — calibration to your process data is required
+  before trusting any number.
 
 ## License
 
